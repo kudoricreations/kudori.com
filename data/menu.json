@@ -1,0 +1,53 @@
+{
+  "Main Menu": {
+    "Dashboard": {
+      "icon": "fa-dashboard",
+      "children": {
+        "Charts": {
+          "content": "<h1>Charts</h1><p>View charts and graphical representations of your data.</p><div class=\"chart-container\"><h3>Sales Overview</h3><p>Chart content will be displayed here.</p></div>"
+        },
+        "Reports": {
+          "content": "<h1>Reports</h1><p>View and manage available reports.</p><div class=\"report\"><h3>Monthly Report</h3><p>Summary of activity for the current month.</p></div>"
+        },
+        "Tables": {
+          "content": "<h1>Tables</h1><p>View information in tabular format.</p><table class=\"table\"><thead><tr><th>Name</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Example Item</td><td>Active</td><td>2026-08-18</td></tr><tr><td>Another Item</td><td>Pending</td><td>2026-08-19</td></tr></tbody></table>"
+        }
+      }
+    },
+    "Profile": {
+      "icon": "fa-user",
+      "children": {
+        "Settings": {
+          "content": "<h1>Settings</h1><p>Manage your profile settings.</p><form><div class=\"form-group\"><label for=\"name\">Name</label><input id=\"name\" type=\"text\" class=\"form-control\" placeholder=\"Your name\"></div><div class=\"form-group\"><label for=\"email\">Email</label><input id=\"email\" type=\"email\" class=\"form-control\" placeholder=\"Your email\"></div><button type=\"submit\" class=\"btn btn-primary\">Save</button><p class=\"text-muted mt-2\"><small>This is a static demo form. Submissions are not sent anywhere.</small></p></form>"
+        },
+        "Password": {
+          "content": "<h1>Change Password</h1><p>Update your account password.</p><form><div class=\"form-group\"><label for=\"current-password\">Current Password</label><input id=\"current-password\" type=\"password\" class=\"form-control\"></div><div class=\"form-group\"><label for=\"new-password\">New Password</label><input id=\"new-password\" type=\"password\" class=\"form-control\"></div><button type=\"submit\" class=\"btn btn-primary\">Change Password</button><p class=\"text-muted mt-2\"><small>This is a static demo form. Submissions are not sent anywhere.</small></p></form>"
+        }
+      }
+    },
+    "Tasks": {
+      "icon": "fa-tasks",
+      "content": "<h1>Tasks</h1><p>Manage your current tasks.</p><ul class=\"list-group\"><li class=\"list-group-item\">Review monthly report</li><li class=\"list-group-item\">Update profile information</li><li class=\"list-group-item\">Prepare presentation</li></ul>"
+    }
+  },
+  "Options": {
+    "Calendar": {
+      "icon": "fa-calendar",
+      "content": "<h1>Calendar</h1><p>View your upcoming events.</p><div class=\"calendar\"><h3>August 2026</h3><ul><li>August 20 - Team Meeting</li><li>August 24 - Project Review</li><li>August 28 - Monthly Report</li></ul></div>"
+    },
+    "Messages": {
+      "icon": "fa-envelope-o",
+      "content": "<h1>Messages</h1><p>You have 5 unread messages.</p><div class=\"list-group\"><div class=\"list-group-item\"><strong>John Smith</strong><p>Can you review the latest report?</p></div><div class=\"list-group-item\"><strong>Jane Doe</strong><p>The project files have been updated.</p></div></div>"
+    }
+  },
+  "Other": {
+    "Help": {
+      "icon": "fa-question",
+      "content": "<h1>Help</h1><p>Find answers and documentation.</p><h3>Frequently Asked Questions</h3><ul><li>How do I update my profile?</li><li>How do I generate a report?</li><li>How do I change my password?</li></ul>"
+    },
+    "Collapse": {
+      "icon": "fa-angle-double-left",
+      "action": "toggle-sidebar"
+    }
+  }
+}
